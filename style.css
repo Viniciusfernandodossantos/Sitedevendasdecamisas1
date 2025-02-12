@@ -1,0 +1,65 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+  }
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 1.8em;
+  }
+  .carousel-caption h5 {
+    font-size: 2.5em;
+    text-shadow: 2px 2px 4px rgba(1, 0, 0, 0.6);}
+    .carousel-caption p{
+        color: #6c6767;
+    }
+  
+    
+  .card-title {
+    font-weight: bold;
+    color: #333;
+  }
+  .card-text {
+    color: #000000;
+  }
+  .btn-success {
+    background-color: #28a745;
+    border: none;
+    transition: background-color 0.3s;
+  }
+  .btn-success:hover {
+    background-color: #218838;
+  }
+  .grip-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+  }
+  footer p, footer a {
+    color: #bbb;
+    font-size: 0.9em;
+  }
+  footer a:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .btn-group .btn {
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+  }
+
+  .btn-group .btn-outline-primary {
+    border-radius: 50%;
+  }
+
+  .btn-group .btn-outline-secondary {
+    border-radius: 50%;
+  }
+
+
+  button.btn-lg {
+    font-size: 18px;
+    padding: 12px 30px;
+  }
